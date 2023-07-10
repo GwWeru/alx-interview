@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def pascal_triangle(n):
     triangle = []
     for i in range(n):
@@ -10,6 +11,5 @@ def pascal_triangle(n):
     return triangle
 n = int(input('Enter a number. '))
 x = pascal_triangle(n)
-print(x)
 for y in (x):
     print(y)
