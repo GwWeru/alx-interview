@@ -9,7 +9,6 @@ def pascal_triangle(n):
                 row[a] = _row[a - 1]+_row[a]
         triangle.append(row)
     return triangle
-n = int(input('Enter a number. '))
-x = pascal_triangle(n)
+x = pascal_triangle(5)
 for y in (x):
     print(y)
